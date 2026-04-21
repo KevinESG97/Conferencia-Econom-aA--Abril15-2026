@@ -79,7 +79,7 @@ Estos están almacenados en la carpeta `datos-originales` dentro de la carpeta `
 
     - `=ESPACIOS(SUSTITUIR(A2;CARACTER(160);""))`: esta función se usó para eliminar espacios adicionales en los datos, donde `A2` es la celda que contiene el texto a limpiar, `CARACTER(160)` representa un espacio no separable, y `SUSTITUIR` reemplaza ese espacio con una cadena vacía, mientras que `ESPACIOS` elimina cualquier espacio adicional al principio o al final del texto.
 
-    -"Albania [+]"  `=SUSTITUIR(A2;"[+]";"")` esta función se usó para eliminar el texto "[+]" de los datos, donde `A2` es la celda que contiene el texto a limpiar, y `SUSTITUIR` reemplaza el texto "[+]" con una cadena vacía.
+    - `=SUSTITUIR(A2;"[+]";"")` esta función se usó para eliminar el texto "[+]" de los datos, donde `A2` es la celda que contiene el texto a limpiar, y `SUSTITUIR` reemplaza el texto "[+]" con una cadena vacía.
 
 - Al tener toda la información a la vista, se visualiza que hay datos que no tienen un formato adecuado, por ejemplo tienen coma decimal, en vez de punto decimal, usan punto para separar miles, usan el guión largo para delegar números negativos, además, se usó la función de `ESPACIOS` ya que algunos datos tenían espacio adicional al principio, no el espacio normal que se usa, el ASCII 32, sino el ASCII 160, el cual es un espacio no separable, con este espacio no se lograba buscar bien la información ya que se hizo por países y retornaba que no encontraba el valor. Así también, de los datos extraídos, algunos tenían el texto "[+]" al final del nombre del país, lo cual se eliminó con la función `SUSTITUIR` para que el nombre del país quedara limpio y se pudiera buscar sin problemas.
 
