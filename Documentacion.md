@@ -185,6 +185,7 @@ Estos están almacenados en la carpeta `datos-originales` dentro de la carpeta `
 
 
 ## Conclusiones y Recomendaciones
+
 <div style="text-align: justify;">
 
     - Este proceso de análisis es una introducción a lo que es el proceso de ETL, introducirse más en este ámbito resulta muy interesante y algo que, como futuros ingenieros en ciencias y sistemas podemos dedicarnos, esto incluye manejo de bases de datos, manejo de grandes volúmenes de datos, análisis de datos, visualización de datos, data warehouse, cubos multidimensionales, entre otros. Es un campo muy amplio y con muchas oportunidades laborales.
