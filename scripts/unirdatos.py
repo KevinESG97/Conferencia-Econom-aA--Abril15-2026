@@ -292,7 +292,8 @@ ruta_datos_limpios = r'datoslimpios'
 
 # Definir archivos con las columnas a extraer de cada uno
 archivos = [
-    ('TIPO-CAMBIO-limpio.xlsx', 'Tipo-Cambio', ['Precio 1$']),
+  #  ('TIPO-CAMBIO-limpio.xlsx', 'Tipo-Cambio', ['DIVISA','Precio 1$']),
+   ('TIPO-CAMBIO-limpio.xlsx', 'Tipo-Cambio', ['Precio 1$']),
     ('deudapublica-limpio.xlsx', 'Deuda-Publica', ['Deuda total $']),
     ('export-import-limpio.xlsx', 'Export-Import', ['Exportaciones $', 'Importaciones $']),
     ('libertadeconomica2026-limpio.xlsx', 'Libertad-Economica', ['Nota']),
@@ -333,13 +334,13 @@ for archivo, alias, columnas_deseadas in archivos:
             dataframes[alias] = df
             paises_totales.update(df['País'].unique())
             
-            print(f"[OK] {alias}: {len(df)} registros, {len(cols_a_mantener)-1} columnas seleccionadas")
+            print(f" {alias}: {len(df)} registros, {len(cols_a_mantener)-1} columnas seleccionadas")
         else:
             print(f"[WARN] {archivo}: No se encontró columna de país")
     else:
         print(f"[ERROR] {archivo}: No existe")
 
-print(f"\n[OK] Total de países únicos encontrados: {len(paises_totales)}")
+print(f"\n Total de países únicos encontrados: {len(paises_totales)}")
 
 print("\n" + "=" * 80)
 print("Archivo final: \n")

@@ -161,6 +161,7 @@ df5['Crecimiento del PIB'] = df5['Crecimiento del PIB'].str.replace('−', '-', 
 df5['Crecimiento del PIB'] = df5['Crecimiento del PIB'].astype(str).str.replace(',', '.', regex=False)
 df5['Crecimiento del PIB'] = df5['Crecimiento del PIB'].str.replace('%', '', regex=False)
 df5['Crecimiento del PIB'] = pd.to_numeric(df5['Crecimiento del PIB'], errors='coerce') 
+#df5['Crecimiento del PIB'] = df5['Crecimiento del PIB'] / 100
 
 df5['PIB per cápita'] = df5['PIB per cápita'].astype(str).str.replace('.', '', regex=False)
 df5['PIB per cápita'] = pd.to_numeric(df5['PIB per cápita'], errors='coerce') 
@@ -263,6 +264,7 @@ print(f"\tTotal de registros: {len(df9)}")
 
 df9['Tasa de desempleo (%)'] = df9['Tasa de desempleo (%)'].astype(str).str.replace(',', '.', regex=False)
 df9['Tasa de desempleo (%)'] = pd.to_numeric(df9['Tasa de desempleo (%)'], errors='coerce')
+#df9['Tasa de desempleo (%)'] = df9['Tasa de desempleo (%)'] * 100
 
 df9 = df9.rename(columns={'pais': 'País' })
 print(" Cambios realizados:")
