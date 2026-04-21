@@ -184,17 +184,15 @@ Estos están almacenados en la carpeta `datos-originales` dentro de la carpeta `
 </div>
 
 
-## Conclusiones y Recomendaciones
+## Conclusiones y Recomendaciones 
 
-<div style="text-align: justify;">
-
-    - Este proceso de análisis es una introducción a lo que es el proceso de ETL, introducirse más en este ámbito resulta muy interesante y algo que, como futuros ingenieros en ciencias y sistemas podemos dedicarnos, esto incluye manejo de bases de datos, manejo de grandes volúmenes de datos, análisis de datos, visualización de datos, data warehouse, cubos multidimensionales, entre otros. Es un campo muy amplio y con muchas oportunidades laborales.
+- Este proceso de análisis es una introducción a lo que es el proceso de ETL, introducirse más en este ámbito resulta muy interesante y algo que, como futuros ingenieros en ciencias y sistemas podemos dedicarnos, esto incluye manejo de bases de datos, manejo de grandes volúmenes de datos, análisis de datos, visualización de datos, data warehouse, cubos multidimensionales, entre otros. Es un campo muy amplio y con muchas oportunidades laborales.
     
-    - Existen muchas formas de realizar este proceso de análisis, se puedo haber leído los datos crudos, transformarlos y unificarlos en un solo paso, pero se hizo por partes para entender como funciona. No hay reglas escritas de cómo se debe hacer este proceso, cada quien puede hacerlo de la forma que mejor le parezca, lo importante es entender el proceso y los conceptos detrás de este.
+- Existen muchas formas de realizar este proceso de análisis, se puedo haber leído los datos crudos, transformarlos y unificarlos en un solo paso, pero se hizo por partes para entender como funciona. No hay reglas escritas de cómo se debe hacer este proceso, cada quien puede hacerlo de la forma que mejor le parezca, lo importante es entender el proceso y los conceptos detrás de este.
 
-    - Lo importante de esto, es entender que el proceso de análisis de datos es un proceso iterativo, no es un proceso lineal, se pueden ir haciendo ajustes, se pueden ir agregando más datos, se pueden ir eliminando datos que no sean relevantes, se pueden ir cambiando las visualizaciones, etc. Es un proceso que requiere de mucha flexibilidad y adaptabilidad, además de que nos ayuda a optimizar el tiempo y recursos.
+- Lo importante de esto, es entender que el proceso de análisis de datos es un proceso iterativo, no es un proceso lineal, se pueden ir haciendo ajustes, se pueden ir agregando más datos, se pueden ir eliminando datos que no sean relevantes, se pueden ir cambiando las visualizaciones, etc. Es un proceso que requiere de mucha flexibilidad y adaptabilidad, además de que nos ayuda a optimizar el tiempo y recursos.
 
-<div>
+ 
 
 ## Fuentes de Datos
 
